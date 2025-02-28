@@ -9,7 +9,8 @@ header {
     text-align: center;
     padding: 20px;
     background-color: #f4f4f4;
-    margin-bottom: 0; /* Elimina el margen inferior del header */
+    margin-bottom: 0 !important; /* Fuerza la eliminación del margen inferior */
+    padding-bottom: 0 !important; /* Fuerza la eliminación del relleno inferior */
 }
 
 h1 {
@@ -46,7 +47,7 @@ nav ul li a:hover {
 
 /* Estilos para la sección hero */
 .hero {
-    background-image: url('Practica 1\Img\614e53261c778.jpg'); /* Ruta de la imagen */
+    background-image: url('../Img/img.jpg'); /* Ruta de la imagen */
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
     height: 400px; /* Altura de la sección */
@@ -55,7 +56,9 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     color: white; /* Color del texto */
-    margin-top: 0; /* Elimina el margen superior */
+    margin-top: 0 !important; /* Fuerza la eliminación del margen superior */
+    padding-top: 0 !important; /* Fuerza la eliminación del relleno superior */
+    width: 100%; /* Ocupa todo el ancho de la página */
 }
 
 .hero-content {
